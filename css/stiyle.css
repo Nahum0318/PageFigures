@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+:root{
+    --black:#000;
+    --white:#ffffff;
+    --ligthgray:#D6C8FF;
+    --primaryColor:#6057C6;
+    --secundaryColor:#A29AF9;
+}
+/* 
+1.-Posicionamineto
+2.-Modelo de caja (Box model)
+3.-Tipografía
+4.-Visuales
+5.-Otros
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: var(--black);
+}
+.body-Figures{
+    background-color: var(--primaryColor);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: var(--white);
+}
+header .header--text-container{
+    width: 70%;
+    margin-top: 27px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+main .main--buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+main .main--buttons-container a{
+    margin-top: 50px;
+    padding: 10px;
+    width: 241px;
+    height: 52;
+    text-decoration: none;
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-align: center;
+    background-color: var(--primaryColor);
+    color: var(--black);
+    border-radius: 12px;
+}
+main .main--buttons-container .icon-triangle{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-right: 20px;
+    background-image: url("../assets/icons/triangule.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .main--buttons-container .icon-square{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-right: 20px;
+    background-image: url("../assets/icons/square.svg");
+}
+main .main--buttons-container .icon-circle{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-right: 20px;
+    background-image: url("../assets/icons/circle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .main--buttons-container .icon-rectangule{
+    display: inline-block;
+    width: 42px;
+    height: 21px;
+    margin-right: 20px;
+    background-image: url("../assets/icons/square.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilos para las páginas de figuras */
