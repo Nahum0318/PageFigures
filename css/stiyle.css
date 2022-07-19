@@ -100,3 +100,114 @@ main .main--buttons-container .icon-rectangule{
 }
 
 /* Estilos para las páginas de figuras */
+.body-Figures header{
+    margin-top: 10px;
+}
+.body-Figures h2{
+    margin-top: 10px;
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: var(--white);
+}
+main .area-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .area-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+main .area-container form input{
+    margin-top: 20px;
+    width: 230px;
+    height: 39px;
+    text-align: center;
+    border-radius: 18px;
+    background-color: var(--secundaryColor);
+    color: var(--white);
+    border: none; /*Quitamos el borde por defecto*/
+}
+main .area-container form input:focus{ /*cuando el imput este activo, quitamos el borde por defecto y cambi8amos a una más fuerte*/
+  border: 1px solid var(--white);
+  outline: none;
+}
+main .area-container form input::placeholder{
+    color: var(--ligthgray);
+}
+main .area-container form input:hover{
+    border: 1px solid var(--white);
+}
+main .area-container form button{
+    margin-top: 20px;
+    width: 90px;
+    height: 41px;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 20px;
+    border: none;
+}
+main .area-container form button:hover{
+    border: 1px solid var(--white);
+}
+main .area-container form button:active{
+    border: 2px solid var(--white);
+}
+main .area-container form p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+main .perimeter-container h2{
+    margin-top: 40px;
+}
+main .perimeter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .perimeter-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+main .perimeter-container form input{
+    margin-top: 20px;
+    width: 230px;
+    height: 39px;
+    text-align: center;
+    border-radius: 18px;
+    background-color: var(--secundaryColor);
+    color: var(--white);
+    border: none; /*Quitamos el borde por defecto*/
+}
+main .perimeter-container form input:focus{ /*cuando el imput este activo, quitamos el borde por defecto y cambi8amos a una más fuerte*/
+  border: 1px solid var(--white);
+  outline: none;
+}
+main .perimeter-container form input::placeholder{
+    color: var(--ligthgray);
+}
+main .perimeter-container form button{
+    margin-top: 20px;
+    width: 90px;
+    height: 41px;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 20px;
+    border: none;
+}
+main .perimeter-container form button:hover{
+    border: 1px solid var(--white);
+}
+main .perimeter-container form button:active{
+    border: 2px solid var(--white);
+}
+main .perimeter-container form p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: var(--white);
+}
